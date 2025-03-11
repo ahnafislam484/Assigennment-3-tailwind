@@ -24,7 +24,7 @@
   </head>
   <body>
     <!-- header-section  -->
-    <header class="container mx-auto">
+    <header class="container mx-auto border-4">
       <!-- nav section  -->
       <div class="navbar">
         <div class="navbar-start">
@@ -95,32 +95,112 @@
 
       <!-- hero section start hear   -->
       <!-- parent div  -->
-      <div class=" space-y-4 flex flex-col items-center justify-center">
+      <div class="space-y-4 flex flex-col items-center justify-center">
         <!-- image div  -->
         <div>
           <img src="assets/banner.png" alt="" />
         </div>
         <!-- content div  -->
-        <div class="space-y-4  text-center ">
-          <h2 class=" text-xl lg:text-5xl font-bold text-center">A barn house of this design has <br> a  striking appearance</h2>
-          <p class="text-gray-500  text-sm lg:text-base font-semibold">
-            The barn house captivates with its blend of rustic  charm and modern
-            sophistication, featuring weathered <br> wood, sleek metal accents, and
-            large  windows that flood the space with natural light.
+        <div class="space-y-4 text-center">
+          <h2 class="text-xl lg:text-5xl font-bold text-center">
+            A barn house of this design has <br />
+            a striking appearance
+          </h2>
+          <p class="text-gray-500 text-sm lg:text-base font-semibold">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered <br />
+            wood, sleek metal accents, and large windows that flood the space
+            with natural light.
           </p>
           <!-- button  -->
-         <div class=" font-bold">
+          <div class="font-bold">
             <button class="btn btn-success bg-[#ABEF5F80] px-5 rounded-full">
-                View Details
-                <i
-                  class="fa-solid fa-arrow-right -rotate-45 bg-[#7ce76ecf] p-2 rounded-full "
-                ></i>
-              </button>
-         </div>
+              View Details
+              <i
+                class="fa-solid fa-arrow-right -rotate-45 bg-[#7ce76ecf] p-2 rounded-full"
+              ></i>
+            </button>
+          </div>
         </div>
       </div>
 
       <!-- hero section end hear   -->
     </header>
+    <!-- mmain section  -->
+    <main>
+      <section
+        class="bg-gray-100 my-10 "
+      >
+        <!-- parent div  -->
+        <div class="p-4 grid col-span-1 gap-8 lg:gap-28 lg:grid-cols-2 container mx-auto">
+          <!-- title part  -->
+          <div class="space-y-4">
+            <div class="hidden lg:block">
+              <img src="assets/Vector.png" alt="" class="w-20" />
+            </div>
+            <div class="text-center lg:text-start text-lg font-semibold text-gray-500">
+              <button class="btn px-4 bg-white shadow-sm rounded-lg ">
+                <i class="fa-solid fa-arrow-right "></i>
+               About Us
+               
+              </button>
+            </div>
+
+            <h2 class="text-2xl font-bold text-center lg:text-start">
+              We design thoughtful, liveable spaces
+            </h2>
+            <p class="text-xs font-normal text-center lg:text-start">
+              That sounds like a wonderful mission! Designing thoughtful,
+              liveable spaces involves a deep understanding of both aesthetics
+              and functionality. Here are some key principles that might guide
+              your work: <br /><br />
+
+             <div class="text-start"> 
+                <span class="text-sm font-bold ">User-Centered Design:</span> Focus
+                on the needs, preferences, and lifestyles of the people who will
+                use the space. This includes considering accessibility, comfort,
+                and usability for all ages and abilities. <br /><br />
+                <span class="text-sm font-bold">Sustainability:</span> Incorporate
+                eco-friendly materials, energy-efficient systems, and sustainable
+                practices to minimize environmental impact. This could include
+                using renewable resources, optimizing natural light, and ensuring
+                good insulation.
+             </div>
+            </p>
+            <!-- cart 1 -->
+            <div class="flex lg:items-center gap-2 p-4 bg-white rounded-lg">
+              <div>
+                <img src="assets/commercial.png" alt="" />
+              </div>
+              <div>
+                <h2 class="font-bold">Commercial</h2>
+                <p class="text-xs font-light text-gray-700">
+                    Designing a striking commercial barn house involves blending the rustic, iconic appeal of a barn with modern, functional elements tailored to business needs. 
+                </p>
+              </div>
+            </div>
+
+            <!-- cart-2  -->
+            <div class="flex lg:items-center gap-2 p-4  bg-white rounded-lg">
+                <div>
+                  <img src="assets/residential.png" alt="" />
+                </div>
+                <div>
+                  <h2 class="font-bold">Residential</h2>
+                  <p class="text-xs font-light text-gray-700">
+                    Designing an attractive residential barn home involves blending the rustic charm of a traditional barn with modern residential comforts.
+                  </p>
+                </div>
+              </div>
+             </div>
+          
+
+          <!-- img part  -->
+          <div class="flex  items-center">
+            <img src="assets/second.png" alt="" class="w-full" />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
