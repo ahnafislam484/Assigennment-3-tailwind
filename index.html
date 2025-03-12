@@ -21,10 +21,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- css file link  -->
+     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- header-section  -->
-    <header class="container mx-auto border-4">
+    <header class="container mx-auto ">
       <!-- nav section  -->
       <div class="navbar">
         <div class="navbar-start">
@@ -200,8 +202,8 @@
       </section>
       <!-- Our Works Process section  -->
        <section class=" my-10 ">
-<!-- parent div  -->
-     <div class=" container mx-auto p-4">
+         <!-- parent div  -->
+          <div class=" container mx-auto p-4">
            <!-- title part hear   -->
            <div class="space-y-4 text-center p-4 lg:p-0" >
             <div class="text-lg font-semibold text-gray-500 ">
@@ -244,9 +246,8 @@
 
              </div>
          </div>
-     </div>
-
-       </section>
+          </div>
+         </section>
  
 
        <!-- chalange part hear  -->
@@ -316,7 +317,7 @@
       </section>
 
        <!-- cart  part hear  -->
-        <section class="  p-2 pt-10">
+        <section class="  p-2 pt-10 container mx-auto">
             <!-- parent div  -->
              <div>
                 <!-- title hear  -->
@@ -335,7 +336,7 @@
                   <div class=" grid grid-cols-1 gap-4 lg:grid-cols-3 mt-10">
                     <!-- cart 1 -->
                      <div class="p-4 bg-[#ffff] shadow-2xl rounded-xl  space-y-2">
-                        <img src="assets/article1.png" alt="" class="w-full">
+                        <img src="assets/article1.png" alt="" class="w-full border-2 border-dashed border-gray-400">
                     <div class=" flex items-center gap-4">
                         <!-- time and date  -->
                      <div class="flex items-center gap-1">
@@ -369,7 +370,7 @@
                      </div>
                     <!-- cart 2 -->
                      <div class="p-4 bg-[#ffff] shadow-2xl rounded-xl  space-y-2">
-                        <img src="assets/article2.png" alt="" class="w-full">
+                        <img src="assets/article2.png" alt="" class="w-full border-2 border-dashed border-gray-400">
                     <div class=" flex items-center gap-4">
                         <!-- time and date  -->
                      <div class="flex items-center gap-1">
@@ -403,7 +404,7 @@
                      </div>
                     <!-- cart 3 -->
                      <div class="p-4 bg-[#ffff] shadow-2xl rounded-xl  space-y-2">
-                        <img src="assets/article3.png" alt="" class="w-full">
+                        <img src="assets/article3.png" alt="" class="w-full border-2 border-dashed border-gray-400">
                     <div class=" flex items-center gap-4">
                         <!-- time and date  -->
                      <div class="flex items-center gap-1">
@@ -440,6 +441,56 @@
              </div>
 
         </section>
+
+
+        <!-- informetion part hear  -->
+
+
+     <section  class="mt-10 container mx-auto bg-image">
+  <!-- title hear  -->
+  <div class="space-y-5 text-center p-4">
+    <!-- button  -->
+    <div class="text-sm font-semibold text-gray-500 ">
+        <button class="btn px-4 bg-[#ABEF5F33] shadow-sm rounded-full ">
+          <i class="fa-solid fa-arrow-right "></i>
+          Let’s Connect</button>
+      </div>
+      <h3 class="text-3xl font-bold ">Let’s Discuss Next Project</h3>
+      <p class="text-sm text-gray-500">Absolutely! Let’s dive into planning your next project.Whether it’s a residential barn house, <br> a commercial space, or something entirely  unique, here’s a  step-by-step guide to ensure it’s as thoughtful, functional, and striking as your previous work:</p>
+ </div>
+ <!-- form part start hear  -->
+
+
+ <!-- parent div  -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
+<!-- left side  -->
+   <div class=" space-y-5 ">
+ <input type="text" placeholder="First Name*" class="bg-gray-300 w-full p-2 rounded-full outline-none">
+ <input type="phone" placeholder="Phone Number*" class="bg-gray-300  w-full p-2 rounded-full outline-none">
+ </div>
+<!-- right  side  -->
+<div class=" space-y-5">
+  <input type="text" placeholder="Last Name*" class="bg-gray-300 w-full p-2 rounded-full outline-none">
+  <input type="email" placeholder="Email Number*" class="bg-gray-300 w-full p-2 rounded-full outline-none">
+
+</div>
+
+<textarea class="w-full h-32  rounded-xl bg-gray-300 outline-none p-2 lg:col-span-2 resize-y" rows="4" placeholder="Write your message here"></textarea>
+
+ <!-- button  -->
+           <div class="font-bold border-4 lg:col-span-2 ">
+  <button class="btn btn-success bg-[#ABEF5F] px-5 rounded-full w-full  ">
+    Send Mail
+    <i
+      class="fa-solid fa-arrow-right -rotate-45 bg-[#7ce76ecf] p-2 rounded-full"
+    ></i>
+  </button>
+          </div>
+   </div>
+     </section>
+
+
+
     </main>
   </body>
 </html>
